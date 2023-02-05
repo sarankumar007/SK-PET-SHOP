@@ -1,0 +1,69 @@
+
+<!DOCTYPE html ">
+<html>
+<head>
+<link rel="stylesheet" href="css/addressPaymentForOrder.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+</head>
+<body>
+<br>
+
+      <center><h1>Payment Details</h1></center>
+<hr style="width: 100%">
+<form action="addressPaymentForOrder" method="post">
+ <div class="left-div">
+ <h3>Enter Address</h3>
+<input class="input-style" type="text" name="address"  placeholder="Enter Address" required>
+ </div>
+
+<div class="right-div">
+<h3>Enter city</h3>
+<input class="input-style" type="text" name="city"  placeholder="Enter City" required>
+</div> 
+
+<div class="left-div">
+<h3>Enter State</h3>
+<input class="input-style" type="text" name="state"  placeholder="Enter State" required>
+</div>
+
+<div class="right-div">
+<h3>Enter country</h3>
+<input class="input-style" type="text" name="country"  placeholder="Enter Country" required>
+</div>
+
+<hr style="width: 100%">
+<div class="left-div">
+<h3>Select way of Payment</h3>
+ <select class="input-style" name="paymentMethod">
+ <option value="Cash on delivery(COD)">Cash on delivery(COD)</option>
+ <option value="Online Payment">Online Payment</option>
+ </select>
+</div>
+
+<div class="right-div">
+<h3>Pay online on this sk@pay.com</h3>
+<input class="input-style" type="text" name="transactionId"  placeholder="Enter Transaction ID" >
+
+</div>
+<hr style="width: 100%">
+
+<div class="left-div">
+<h3>Mobile Number</h3>
+<input class="input-style" type="text" name="mobileNumber"  placeholder="Enter Mobile Number" required>
+
+</div>
+<div class="right-div">
+
+<button type="submit" class="button">Proceed to Generate Bill & Save<i class='far fa-arrow-alt-circle-right'></i></button>
+
+</div></form>
+
+
+      <br>
+      <br>
+      <br>
+      
+</body>
+</html>
